@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1" >
+        <TextView
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25px"
+            android:autoText="false"
+            android:textSize="144sp"
+            android:gravity="center"
+            android:layout_margin="30dp"
+            android:layout_marginLeft="25px"
+            android:layout_marginTop="30dp"
+            android:id="@+id/resultTextView"
+            android:minHeight="25px"
+            android:maxWidth="25px" />
+        <TextView
+            android:text="Choose your range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar1"
+            android:max="10" />
+        <Button
+            android:text="Roll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:layout_marginLeft="25px"
+            android:layout_marginRight="25px"
+            android:layout_marginTop="25px" />
+    </LinearLayout>
+</RelativeLayout>
